@@ -1,0 +1,59 @@
+.xsq_select {
+    font-family: microsoft yahei;
+}
+.xsq_select dl {
+    width: 200px;
+    height: 413px;
+    border: 2px solid #e67e22;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+.xsq_select dt{
+    font-size:14px;
+    color:#d35400;
+    font-weight:700;
+    padding: 5px;
+}
+.xsq_select dl dd {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+}
+.xsq_select dl dd.selected{
+    background: yellow;
+    color: black;
+}
+.xsq_select dl dd:hover {
+    background: yellow;
+    color: black;
+}
+.xsq_select input[type="text"]{
+	width: 200px;
+	height: 24px;
+}
+.xsq_select b{
+	cursor: pointer;
+    margin-left: 5px;
+}
+.xsq_select input.checked{
+	outline: none;
+	border:none;
+	border:2px solid #2ECC71;
+	box-shadow: 0 0 3px #aaa; 
+}
+
+.xsq_select b.down{
+    background: url(img/arrow.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+.xsq_select b.close{
+    background: url(img/cross.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: -3px;
+}

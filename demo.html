@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search & select input </title>
+	<link rel="stylesheet" href="xsq_select.css">
+	<script src="q.js"></script>
+	<script src="xsq_select.js"></script>
+	<style>
+		body{
+			background: #ccc;
+		}
+		h2{
+			color:#CA1C7F;
+		}
+		ol li{
+			margin: 10px;
+			font-size: 20px;
+			font-weight: 600;
+		}
+		.xsq_select{
+			margin: 10px 0px;
+		}
+
+		hr{
+			margin-bottom: 50px;
+		}
+
+		.container{
+			width: 600px;
+			height: auto;
+			border: 2px dashed red;
+			padding: 30px;
+		}
+	</style>
+</head>
+<body>
+
+
+	<h2>Demo for the search & select input</h2>
+
+
+	
+	<h3>Features : </h3>
+	<ol>
+		<li>You could try click the DOWN arrow to act a select feature and try filter the options by input some key words.</li>
+		<li>UP and DOWN arrow at keyboard are available to navigate the items in the filtered list.</li>
+		<li>a green border will show after you choose one of the items either by ENTER key or by click.</li>
+		<li>sure you could clear you selection by clicking the BIG cross align right.</li>
+		<li>you could open the debug mode by setting the debug to true to keep track of the value you'll post.</li>
+	</ol>
+
+	<hr>
+	<h3>Demo : </h3>
+
+	<!-- demo start -->
+	<div class="container">
+		<div class="xsq_select">
+			<input type="text" class="xsq_input">
+			<input class="xsq_input_val" style="display:none;">
+			<b style="display:none;" class="close"></b>
+			<b style="" class="down"></b>
+			<dl style="display:none;">
+				<dt>下拉列表</dt>
+				<dd value="001">01</dd>
+				<dd value="002">02</dd>
+				<dd value="003">03</dd>
+				<dd value="004">04</dd>
+				<dd value="005">05</dd>
+				<dd value="006">06</dd>
+				<dd value="007">07</dd>
+				<dd value="008">08</dd>
+				<dd value="009">09</dd>
+				<dd value="010">10</dd>
+				<dd value="011">11</dd>
+				<dd value="012">12</dd>
+				<dd value="013">13</dd>
+				<dd value="014">14</dd>
+				<dd value="015">15</dd>
+				<dd value="016">16</dd>
+				<dd value="017">17</dd>
+				<dd value="018">18</dd>
+				<dd value="019">19</dd>
+				<dd value="020">20</dd>
+			</dl>
+		</div>
+
+
+		<div class="xsq_select">
+			<input type="text" class="xsq_input">
+			<input class="xsq_input_val" style="display:none;">
+			<b style="display:none;" class="close"></b>
+			<b style="" class="down"></b>
+			<dl style="display:none;">
+				<dt>下拉列表</dt>
+				<dd value="60148">Fly魔兽基金会321</dd>
+				<dd value="55415">Fly魔兽基金会</dd>
+				<dd value="4587" style="color:blue;" pinyin="hnzg">黄牛--自挂</dd>
+				<dd value="60072" style="color:blue;">骗子公司--自挂</dd>
+				<dd value="60071" style="color:blue;">骗子公司--自挂</dd>
+				<dd value="60075" style="color:blue;">骗子公司--自挂</dd>
+				<dd value="60074" style="color:blue;">骗子公司--自挂</dd>
+				<dd value="60073" style="color:blue;">骗子公司--自挂</dd>
+				<dd value="1442" style="color:blue;">马兰花剧场--自挂</dd>
+				<dd value="10568" style="color:blue;">风韵文化--自挂</dd>
+				<dd value="13048" style="color:blue;" pinyin="ffwhzg">非凡文化--自挂</dd>
+				<dd value="10565" style="color:blue;">锦辉文化--自挂</dd>
+				<dd value="182" style="color:blue;">锦穗文化--自挂</dd>
+				<dd value="60078" style="color:blue;">钦斌骅实业--自挂</dd>
+				<dd value="60183" style="color:blue;">钦斌骅--自挂</dd>
+				<dd value="10576" style="color:blue;">艺海剧院--自挂</dd>
+				<dd value="40392" style="color:blue;">聚橙网--自挂</dd>
+				<dd value="1443" style="color:blue;">纯真歌迷俱乐部--自挂</dd>
+				<dd value="8520" style="color:blue;">第一票务网--自挂</dd>
+				<dd value="12897" style="color:blue;">盛力世家--自挂</dd>
+				<dd value="10569" style="color:blue;">珉间喜剧--自挂</dd>
+				<dd value="55426" style="color:blue;">王黄牛--自挂</dd>
+				<dd value="55427" style="color:blue;">王小牛--自挂</dd>
+				<dd value="10580" style="color:blue;">玄同文化--自挂</dd>
+				<dd value="183" style="color:blue;">满艺文化--自挂</dd>
+				<dd value="1434" style="color:blue;">淘宝--自挂</dd>
+				<dd value="10660" style="color:blue;">海艺影城 --自挂</dd>
+				<dd value="60094" style="color:blue;">测试认证个人2222--自挂</dd>
+				<dd value="1435" style="color:blue;">永乐票务--自挂</dd>
+				<dd value="10659" style="color:blue;">梅赛德斯奔驰文化中心 --自挂</dd>
+				<dd value="60076" style="color:blue;">松下--自挂</dd>
+				<dd value="10718" style="color:blue;">杰鑫文化--自挂</dd>
+				<dd value="55428" style="color:blue;">机构对对碰--自挂</dd>
+				<dd value="8519" style="color:blue;">有意思剧社--自挂</dd>
+				<dd value="362" style="color:blue;">昭丹文化--自挂</dd>
+				<dd value="55417" style="color:blue;">新西兰公司--自挂</dd>
+				<dd value="55416" style="color:blue;">新西兰公司--自挂</dd>
+				<dd value="10575" style="color:blue;">文广民族乐团--自挂</dd>
+				<dd value="450" style="color:blue;">文化广场--自挂</dd>
+				<dd value="40359" style="color:blue;">摩登天空--自挂</dd>
+				<dd value="60091" style="color:blue;">招商机构--自挂</dd>
+				<dd value="1437" style="color:blue;">执信文化--自挂</dd>
+				<dd value="180" style="color:blue;">戏逍堂-可当代艺术中心--自挂</dd>
+				<dd value="10564" style="color:blue;">徐晶--自挂</dd>
+				<dd value="40490" style="color:blue;">开心麻花--自挂</dd>
+				<dd value="40490" style="color:blue;">开心麻花--自挂</dd>
+				<dd value="10570" style="color:blue;">小韦伯文化--自挂</dd>
+				<dd value="57397" style="color:blue;">小米科技--自挂</dd>
+				<dd value="44254" style="color:blue;">官网自控票 --自挂</dd>
+				<dd value="12896" style="color:blue;">孟京辉工作室--自挂</dd>
+				<dd value="172" style="color:blue;">媚景文化--自挂</dd>
+				<dd value="10578" style="color:blue;">天蟾逸夫舞台--自挂</dd>
+				<dd value="12919" style="color:blue;">天猫淘宝特供(自控票)--自挂</dd>
+				<dd value="146" style="color:blue;">天使--自挂</dd>
+				<dd value="12757" style="color:blue;">大顺文化--自挂</dd>
+				<dd value="10574" style="color:blue;">大宁剧院--自挂</dd>
+				<dd value="10577" style="color:blue;">城市剧院--自挂</dd>
+				<dd value="40350" style="color:blue;">唯喜文化--自挂</dd>
+				<dd value="40353" style="color:blue;">品欢相声会馆--自挂</dd>
+				<dd value="12901" style="color:blue;">周春根--自挂</dd>
+				<dd value="1501" style="color:blue;">可米文化--自挂</dd>
+				<dd value="1470" style="color:blue;">可当代艺术中心--自挂</dd>
+				<dd value="57398" style="color:blue;">劳动公司--自挂</dd>
+				<dd value="185" style="color:blue;">创盈票务--自挂</dd>
+				<dd value="60204" style="color:blue;">刘蔚--自挂</dd>
+				<dd value="1438" style="color:blue;">凯赋票务--自挂</dd>
+				<dd value="10657" style="color:blue;">兰心 大戏院--自挂</dd>
+				<dd value="181" style="color:blue;">健斗士酒吧--自挂</dd>
+				<dd value="13072" style="color:blue;">人民大舞台--自挂</dd>
+				<dd value="10663" style="color:blue;">云峰剧院 --自挂</dd>
+				<dd value="12899" style="color:blue;">久事赛事--自挂</dd>
+				<dd value="10573" style="color:blue;">中福会儿童剧场--自挂</dd>
+				<dd value="60077" style="color:blue;">中文--自挂</dd>
+				<dd value="10662" style="color:blue;">东艺音乐厅--自挂</dd>
+				<dd value="10661" style="color:blue;">东方音乐厅--自挂</dd>
+				<dd value="10579" style="color:blue;">东方艺术中心--自挂</dd>
+				<dd value="1491" style="color:blue;">东方票务--自挂</dd>
+				<dd value="8521" style="color:blue;">上海马戏城--自挂</dd>
+				<dd value="184" style="color:blue;">上海音乐厅--自挂</dd>
+				<dd value="1440" style="color:blue;">上海话剧艺术中心--自挂</dd>
+				<dd value="319" style="color:blue;">上海票务--自挂</dd>
+				<dd value="10572" style="color:blue;">上海现代人剧社--自挂</dd>
+				<dd value="40314" style="color:blue;">上海王元教育信息咨询有限公司--自挂</dd>
+				<dd value="8490" style="color:blue;">上海爱有(尾票)--自挂</dd>
+				<dd value="10571" style="color:blue;">上海爱乐乐团--自挂</dd>
+				<dd value="40487" style="color:blue;">上海民族乐团--自挂</dd>
+				<dd value="40487" style="color:blue;">上海民族乐团--自挂</dd>
+				<dd value="10566" style="color:blue;">上海歌剧院--自挂</dd>
+				<dd value="40100" style="color:blue;">上海交响乐团--自挂</dd>
+				<dd value="396" style="color:blue;">万易广告--自挂</dd>
+				<dd value="10096" style="color:blue;">vip002(vip票管理员)--自挂</dd>
+				<dd value="55418" style="color:blue;">nz airline--自挂</dd>
+				<dd value="55419" style="color:blue;">nz airline--自挂</dd>
+				<dd value="59967" style="color:blue;">Fly魔兽基金会上海分会--自挂</dd>
+				<dd value="55412" style="color:blue;">Fly魔兽基金会--自挂</dd>
+				<dd value="60207" style="color:blue;">FLY魔兽基金88800--自挂</dd>
+				<dd value="60149" style="color:blue;">FLY魔兽基金888--自挂</dd>
+				<dd value="59966" style="color:blue;">flychenjie3--自挂</dd>
+				<dd value="60132" style="color:blue;">flychenjie18--自挂</dd>
+				<dd value="55420" style="color:blue;">dota--自挂</dd>
+				<dd value="57406" style="color:blue;">123--自挂</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>
